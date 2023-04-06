@@ -1,3 +1,14 @@
 body{
     background-color: rgb(48, 48, 48);
 }
+#Main-Icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#Main-Icons > img{
+    width: 250px;
+    height: 250px;
+}
