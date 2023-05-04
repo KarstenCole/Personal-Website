@@ -6,42 +6,81 @@
   <link href="/dist/output.css" rel="stylesheet">
 </head>
 <body>
-    <!-- Here is the command to update your live viewer, and compiling system using  tailwind:
+    <!-- Here is the command to update the dist/output and optimize the website:
          npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch -->
-    <div id="header" class="text-white bg-gray-900 h-20 justify-center flex">
-        <i class="font-extrabold flex items-center">
-            Header
+         
+    <div id="header" class="text-white bg-gray-900 h-20 justify-end flex ">
+        <i class="font-extrabold flex items-center mr-auto ml-auto">
+            KARSTEN COLE
         </i>
+        <div class="h-12 w-32 bg-gray-600 mt-auto mb-auto mr-2 rounded-xl justify-center flex">
+            <i class="font-extrabold flex items-center mr-auto ml-auto">
+                MENU
+            </i>
+        </div>
     </div>
-    <div id="about-me" class="bg-slate-800 text-white h-screen flex justify-center">
-        <i class="font-extrabold flex items-center">
-            About me
-        </i>
+    <div id="about-me" class="bg-slate-800 text-white h-screen flex justify-start">
+        <div class="flex justify-center w-2/3 bg-slate-700 mb-20 mt-10 ml-auto rounded-2xl">
+            <i class="font-extrabold flex items-center">
+                About me:
+            </i>
+        </div>
+        <img class="flex justify-center w-1/5 bg-slate-700 mt-10 mr-auto ml-auto mb-auto rounded-2xl" 
+        src="/src/images/personal-photo.jpg">
     </div>
-    <div id="projects" class="bg-slate-700 text-white h-screen flex justify-center">
-        <i class="font-extrabold flex items-center">
-            Projects
-        </i>
+    <div id="projects" class="bg-slate-700 text-white h-screen flex justify-center flex-col">
+        <div class="flex justify-start flex-row m-4 h-3/4 w-auto rounded-2xl">
+            <div class=" bg-slate-800 flex w-1/2 m-4 rounded-2xl justify-center"> 
+                <i class="font-extrabold flex items-center">
+                    Project Description
+                </i>
+            </div>
+            <div class=" bg-slate-800 flex w-1/2 m-4 rounded-2xl justify-center"> 
+                <i class="font-extrabold flex items-center">
+                    Photo
+                </i>
+            </div>
+        </div>
+        <div class="bg-slate-800 flex m-8 h-20 rounded-2xl justify-center">
+            <i class="font-extrabold flex items-center">
+                Links + More
+            </i>
+        </div>
     </div>
-    <div id="Jobs/Internships" class="bg-slate-600 text-white h-screen flex justify-center">
+    <div id="Jobs/Internships" class="bg-slate-800 text-white h-screen flex justify-center">
         <i class="font-extrabold flex items-center">
             Jobs + Internships
         </i>
     </div>
-    <div id="Classes/knowledge" class="bg-slate-500 text-white h-screen flex justify-center">
+    <div id="Classes/knowledge" class="bg-slate-700 text-white h-screen flex justify-center">
         <i class="font-extrabold flex items-center">
             Classes + knowledge
         </i>
     </div>
-    <div id="Resume/Summary" class="bg-slate-400 text-white h-screen flex justify-center">
+    <div id="Resume/Summary" class="bg-slate-800 text-white h-screen flex justify-center">
         <i class="font-extrabold flex items-center">
             Resume + Summary
         </i>
     </div>
-    <div id="footer" class="text-white bg-slate-300 h-20 justify-center flex">
-        <i class="font-extrabold flex items-center">
-            Footer
-        </i>
+    <div id="footer" class="text-white bg-slate-700 h-64 flex flex-col">
+        <div class="flex flex-row justify-center mb-5">
+            <div class="h-14 w-14 bg-slate-800 ml-10 mt-10 rounded-full "></div>
+            <div class="h-14 w-14 bg-slate-800 ml-10 mt-10 rounded-full "></div>
+            <div class="h-14 w-14 bg-slate-800 ml-10 mt-10 rounded-full "></div>
+            <div class="h-14 w-14 bg-slate-800 ml-10 mt-10 mr-10 rounded-full "></div>
+        </div>
+        <div class="flex flex-row justify-center">
+            <i class="font-extrabold flex items-center m-5">
+                EMAIL: karstenwcole@gmail.com <br>
+
+            </i>
+            <i class="font-extrabold flex items-center m-5">
+                OTHER INFO
+            </i>
+            <i class="font-extrabold flex items-center m-5">
+                OTHER INFO
+            </i>
+        </div>
     </div>
 </body>
 </html>
