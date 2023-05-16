@@ -572,6 +572,10 @@ video {
   display: flex;
 }
 
+.h-1\/3 {
+  height: 33.333333%;
+}
+
 .h-12 {
   height: 3rem;
 }
@@ -582,6 +586,10 @@ video {
 
 .h-20 {
   height: 5rem;
+}
+
+.h-28 {
+  height: 7rem;
 }
 
 .h-3\/4 {
@@ -596,8 +604,8 @@ video {
   height: 16rem;
 }
 
-.h-screen {
-  height: 100vh;
+.h-96 {
+  height: 24rem;
 }
 
 .h-auto {
@@ -608,38 +616,20 @@ video {
   height: 100%;
 }
 
-.h-1\/3 {
-  height: 33.333333%;
+.h-screen {
+  height: 100vh;
 }
 
-.h-28 {
-  height: 7rem;
+.h-52 {
+  height: 13rem;
 }
 
-.h-96 {
-  height: 24rem;
-}
-
-.h-fit {
-  height: -moz-fit-content;
-  height: fit-content;
-}
-
-.max-h-96 {
-  max-height: 24rem;
-}
-
-.min-h-fit {
-  min-height: -moz-fit-content;
-  min-height: fit-content;
+.h-36 {
+  height: 9rem;
 }
 
 .w-1\/2 {
   width: 50%;
-}
-
-.w-1\/5 {
-  width: 20%;
 }
 
 .w-14 {
@@ -670,30 +660,22 @@ video {
   width: 100%;
 }
 
-.w-1\/3 {
-  width: 33.333333%;
+.w-52 {
+  width: 13rem;
 }
 
-.min-w-full {
-  min-width: 100%;
+.w-max {
+  width: -moz-max-content;
+  width: max-content;
 }
 
-.max-w-4xl {
-  max-width: 56rem;
+.w-fit {
+  width: -moz-fit-content;
+  width: fit-content;
 }
 
-.max-w-xl {
-  max-width: 36rem;
-}
-
-.max-w-lg {
-  max-width: 32rem;
-}
-
-.border-spacing-4 {
-  --tw-border-spacing-x: 1rem;
-  --tw-border-spacing-y: 1rem;
-  border-spacing: var(--tw-border-spacing-x) var(--tw-border-spacing-y);
+.w-screen {
+  width: 100vw;
 }
 
 .flex-row {
@@ -720,6 +702,10 @@ video {
   justify-content: center;
 }
 
+.justify-between {
+  justify-content: space-between;
+}
+
 .justify-around {
   justify-content: space-around;
 }
@@ -734,10 +720,6 @@ video {
 
 .rounded-xl {
   border-radius: 0.75rem;
-}
-
-.border {
-  border-width: 1px;
 }
 
 .bg-gray-600 {
@@ -760,13 +742,26 @@ video {
   background-color: rgb(30 41 59 / var(--tw-bg-opacity));
 }
 
-.bg-slate-100 {
+.bg-white {
   --tw-bg-opacity: 1;
-  background-color: rgb(241 245 249 / var(--tw-bg-opacity));
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.object-cover {
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .p-4 {
   padding: 1rem;
+}
+
+.p-10 {
+  padding: 2.5rem;
+}
+
+.p-20 {
+  padding: 5rem;
 }
 
 .font-extrabold {
