@@ -516,10 +516,6 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.right-full {
-  right: 100%;
-}
-
 .m-4 {
   margin: 1rem;
 }
@@ -538,6 +534,10 @@ video {
 
 .mb-20 {
   margin-bottom: 5rem;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
 }
 
 .mb-5 {
@@ -574,10 +574,6 @@ video {
 
 .mt-auto {
   margin-top: auto;
-}
-
-.mb-4 {
-  margin-bottom: 1rem;
 }
 
 .flex {
@@ -636,6 +632,14 @@ video {
   height: 100vh;
 }
 
+.h-32 {
+  height: 8rem;
+}
+
+.h-24 {
+  height: 6rem;
+}
+
 .w-14 {
   width: 3.5rem;
 }
@@ -664,9 +668,8 @@ video {
   width: 100%;
 }
 
-.w-min {
-  width: -moz-min-content;
-  width: min-content;
+.w-12 {
+  width: 3rem;
 }
 
 .flex-row {
@@ -709,6 +712,19 @@ video {
   border-radius: 0.75rem;
 }
 
+.border-b-2 {
+  border-bottom-width: 2px;
+}
+
+.border-b-4 {
+  border-bottom-width: 4px;
+}
+
+.border-black {
+  --tw-border-opacity: 1;
+  border-color: rgb(0 0 0 / var(--tw-border-opacity));
+}
+
 .bg-gray-600 {
   --tw-bg-opacity: 1;
   background-color: rgb(75 85 99 / var(--tw-bg-opacity));
@@ -729,6 +745,11 @@ video {
   background-color: rgb(30 41 59 / var(--tw-bg-opacity));
 }
 
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
 .object-contain {
   -o-object-fit: contain;
      object-fit: contain;
@@ -739,25 +760,98 @@ video {
      object-fit: cover;
 }
 
-.object-none {
-  -o-object-fit: none;
-     object-fit: none;
-}
-
 .p-4 {
   padding: 1rem;
 }
 
-.p-10 {
-  padding: 2.5rem;
+.font-sans {
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.font-serif {
+  font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+}
+
+.font-\[\'Open_Sans\'\] {
+  font-family: 'Open Sans';
+}
+
+.font-\[\'Brandon-grotesque\'\] {
+  font-family: 'Brandon-grotesque';
+}
+
+.font-\[\'Brandon-Grotesque\'\] {
+  font-family: 'Brandon-Grotesque';
+}
+
+.font-\[\'Helvetica\'\] {
+  font-family: 'Helvetica';
+}
+
+.font-\[\'monospace\'\] {
+  font-family: 'monospace';
+}
+
+.font-\[\'fantasy\'\] {
+  font-family: 'fantasy';
+}
+
+.font-\[\'Monospace\'\] {
+  font-family: 'Monospace';
+}
+
+.font-\[\'Veranda\'\] {
+  font-family: 'Veranda';
+}
+
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
 }
 
 .font-extrabold {
   font-weight: 800;
 }
 
+.font-bold {
+  font-weight: 700;
+}
+
+.tracking-wide {
+  letter-spacing: 0.025em;
+}
+
+.tracking-wider {
+  letter-spacing: 0.05em;
+}
+
+.-tracking-widest {
+  letter-spacing: -0.1em;
+}
+
+.tracking-widest {
+  letter-spacing: 0.1em;
+}
+
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-black {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+
+.text-transparent {
+  color: transparent;
+}
+
+.text-opacity-75 {
+  --tw-text-opacity: 0.75;
+}
+
+.text-opacity-50 {
+  --tw-text-opacity: 0.5;
 }
 
