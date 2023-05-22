@@ -2,7 +2,11 @@
 module.exports = {
   content: ["./src/index.html"],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'galaxy-shooter': "url('/src/media/APCS_Final_Map.png')"
+      }
+    },
   },
   plugins: [],
 }
