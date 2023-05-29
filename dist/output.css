@@ -608,6 +608,46 @@ video {
   margin-bottom: 0px;
 }
 
+.mb-12 {
+  margin-bottom: 3rem;
+}
+
+.mb-32 {
+  margin-bottom: 8rem;
+}
+
+.mb-44 {
+  margin-bottom: 11rem;
+}
+
+.mt-3 {
+  margin-top: 0.75rem;
+}
+
+.mt-28 {
+  margin-top: 7rem;
+}
+
+.mb-28 {
+  margin-bottom: 7rem;
+}
+
+.mt-14 {
+  margin-top: 3.5rem;
+}
+
+.mb-10 {
+  margin-bottom: 2.5rem;
+}
+
+.mb-6 {
+  margin-bottom: 1.5rem;
+}
+
+.mb-24 {
+  margin-bottom: 6rem;
+}
+
 .flex {
   display: flex;
 }
