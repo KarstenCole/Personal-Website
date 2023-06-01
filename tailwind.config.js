@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'galaxy-shooter': "url('/src/media/APCS_Final_Map.png')"
+        'galaxy-shooter': "url('/src/images/APCS_Final_Map.png')"
       }
     },
   },
