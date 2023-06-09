@@ -1,0 +1,19 @@
+.menu-button.active .menu-line:nth-child(1) {
+    transform: rotate(45deg);
+}
+.menu-button.active .menu-line:nth-child(2) {
+    opacity: 0;
+}
+.menu-button.active .menu-line:nth-child(3) {
+    transform: rotate(-45deg);
+}
+#menu.show {
+    opacity: 0.95;
+    z-index: 49;
+
+}
+body.show-scrollbar{
+    position: fixed; 
+    width: 100%;
+    overflow-y: scroll; 
+}
