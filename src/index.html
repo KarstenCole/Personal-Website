@@ -1,18 +1,25 @@
 <!doctype html>
 <html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="/dist/output.css" rel="stylesheet">
-  <title>Karsten Cole Portfolio</title>
-  
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/dist/output.css" rel="stylesheet">
+    <title>Karsten Cole Portfolio</title>
+    <script>
+        function toggleMenu() {
+            const menuButton = document.getElementById('menuButton');
+            const menu = document.getElementById('menu');
+            menuButton.classList.toggle('active');
+            menu.classList.toggle('show');
+        }
+    </script>  
 </head>
 <body>
     <!-- Here is the command to update the dist/output and optimize the website:
          npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch -->
     <style>
         .menu-button.active .menu-line:nth-child(1) {
-            transform: rotate(45deg) translate(-2px, -2px);
+            transform: rotate(45deg);
         }
         
         .menu-button.active .menu-line:nth-child(2) {
@@ -20,19 +27,27 @@
         }
         
         .menu-button.active .menu-line:nth-child(3) {
-            transform: rotate(-45deg) translate(2px, -2px);
+            transform: rotate(-45deg);
         }
-    </style>            
-    <div class="fixed top-8 right-7 h-8 w-10 z-50">
-        <button id="menuButton" class="menu-button h-full w-full" onclick="this.classList.toggle('active')">
+
+        #menu.show {
+            opacity: 0.95;
+        }
+    </style>
+              
+    <div class="fixed top-9 right-7 h-8 w-10 z-50">
+        <button id="menuButton" class="menu-button h-full w-full focus:outline-none" onclick="toggleMenu();">
             <div class="menu-line absolute w-full h-1 bg-white rounded-full 
             transition-transform duration-300 -translate-y-3.5"></div>
             <div class="menu-line absolute w-full h-1 bg-white rounded-full 
-            transition-all duration-300 transform"></div>
+            transition-all duration-300"></div>
             <div class="menu-line absolute w-full h-1 bg-white rounded-full 
             transition-transform duration-300 translate-y-3.5"></div>
         </button>
-    </div>     
+    </div>
+    <div id="menu" class="fixed h-screen w-screen bg-black z-49 opacity-0 duration-300">
+
+    </div>    
     <div id="Intro" class="h-screen">
         <div id="header" class="text-white bg-black flex flex-col justify-center p-6">
             <p class="font-thin text-xl text-center">
@@ -42,16 +57,15 @@
                 KARSTEN COLE
             </p>
         </div>
-        <div id="about-me" class="bg-white flex h-full">
-            <div class="flex justify-center h-96 drop-shadow-md bg-black ml-auto mr-auto mt-32">
-                <img src="/src/images/personal-photo.jpg" class="object-cover">
-            </div>
+        <div id="about-me" class="bg-white flex h-full text-black flex-row justify-around p-10 lg:justify-center">
+            <img src="/src/images/personal-photo.jpg" 
+            class="h-96 mt-32 m-4 lg:mr-28 ">
             <div class="flex flex-col justify-center h-96 w-2/3 max-w-lg 
-            bg-white mb-20 mt-24 mr-auto items-center">
+             mb-20 mt-24 items-center">
                 <div class="m-8 mb-0 tracking-wider">
                     <h1 class="smaller-title">ABOUT ME</h1>
                 </div>
-                <p class="leading-8 text-gray-600 text-center">
+                <p class="leading-8 text-gray-600 text-center m-8">
                     I'm a Rising Senior in the Virginia Tech graduating class of 27.
                     Currently I enjoy working on front end projects, and working with javascript.
                     I have Learnt a lot through my time at Brooklyn Technical High School in 
