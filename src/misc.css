@@ -8,12 +8,18 @@
     transform: rotate(-45deg);
 }
 #menu.show {
-    opacity: 0.95;
+    opacity: .99;
     z-index: 49;
 
 }
 body.show-scrollbar{
-    position: fixed; 
-    width: 100%;
-    overflow-y: scroll; 
+    overflow: hidden;
+}
+
+body.show-scrollbar{
+    overflow: hidden;
+}
+
+body::-webkit-scrollbar{
+    width: 0;
 }
