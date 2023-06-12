@@ -1,3 +1,6 @@
+html{
+    scroll-behavior: smooth;
+}
 .menu-button.active .menu-line:nth-child(1) {
     transform: rotate(45deg);
 }
