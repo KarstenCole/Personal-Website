@@ -147,7 +147,7 @@ body::-webkit-scrollbar{
 }
 
 #pfp{
-    animation: animate-pfp 8s infinite;
+    animation: animate-pfp 5s infinite;
     border-radius: 46% 54% 50% 50% / 46% 51% 49% 54% ;
 }
 
