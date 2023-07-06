@@ -602,6 +602,30 @@ video {
   top: 500px;
 }
 
+.top-\[200px\] {
+  top: 200px;
+}
+
+.top-\[400px\] {
+  top: 400px;
+}
+
+.top-\[600px\] {
+  top: 600px;
+}
+
+.top-\[700px\] {
+  top: 700px;
+}
+
+.top-\[800px\] {
+  top: 800px;
+}
+
+.top-\[750px\] {
+  top: 750px;
+}
+
 .-z-10 {
   z-index: -10;
 }
