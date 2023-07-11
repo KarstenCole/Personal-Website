@@ -169,3 +169,15 @@ body::-webkit-scrollbar{
 #portfolio > div > div > div{
     box-shadow:  16px 16px 30px #aaaaaa, -16px -16px 30px #ffffff;
 }
+
+.spacer {
+    aspect-ratio: 3/2;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.layer1{
+    background-image: url('./images/layered-waves-haikei.svg');
+}
