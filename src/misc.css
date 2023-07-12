@@ -186,3 +186,8 @@ body::-webkit-scrollbar{
 .layer1{
     background-image: url('./images/layered-waves-haikei.svg');
 }
+
+.Journey-img {
+    box-shadow:  16px 16px 30px #aaaaaa, -16px -16px 30px #ffffff;
+
+}
