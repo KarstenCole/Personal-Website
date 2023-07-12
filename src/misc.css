@@ -15,6 +15,10 @@ html{
     z-index: 49;
 
 }
+body{
+    overflow-x: hidden;
+    background-color: black;
+}
 body.show-scrollbar{
     overflow: hidden;
 }
