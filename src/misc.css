@@ -143,10 +143,18 @@ body::-webkit-scrollbar{
     0%{
         transform: translateY(0) rotate(0deg);
         opacity: 1;
+        border-radius: 46% 54% 50% 50% / 46% 51% 49% 54% ;
+    }
+    33% {
+        border-radius: 40% 60% 65% 35% / 43% 46% 54% 57%   ;
+    }
+    66% {
+        border-radius: 46% 54% 43% 57% / 41% 34% 66% 59% ;
     }
     100%{
         transform: translateY(-800px) rotate(360deg);
         opacity: 0.1;
+        border-radius: 46% 54% 50% 50% / 46% 51% 49% 54% ;
     }
 }
 
