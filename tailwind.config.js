@@ -7,7 +7,8 @@ module.exports = {
         sans: ['Montserrat', 'sans-serif'],
       },
       backgroundImage: {
-        'galaxy-shooter': "url('/src/images/APCS_Final_Map.png')"
+        'galaxy-shooter': "url('/src/images/APCS_Final_Map.png')",
+        'Music-Website': "url('/src/images/guitar-music-theory.jpeg')",
       }
     },
   },
