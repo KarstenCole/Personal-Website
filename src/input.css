@@ -7,10 +7,10 @@
   @apply flex flex-col w-auto m-4 h-1/3 justify-center text-center max-w-lg;
 }
 .large-title{
-  @apply tracking-wider text-center text-4xl;
+  @apply tracking-wider text-center text-[44px];
 }
 .smaller-title {
-  @apply text-lg m-8 tracking-wider underline;
+  @apply m-1 tracking-wider underline;
 }
 .round-icon{
   @apply h-14 w-14 ml-10 mt-10 rounded-full;
