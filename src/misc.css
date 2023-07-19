@@ -199,18 +199,3 @@ body::-webkit-scrollbar{
 
 }
 
-.bg-opacity::after {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5); /* Adjust the opacity and color as desired */
-    transition: opacity 0.3s ease-in-out;
-    z-index: 1;
-  }
-  
-  .rounded-xl:hover > *:not(.absolute) {
-    opacity: 1;
-  }
