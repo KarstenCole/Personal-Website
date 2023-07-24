@@ -809,10 +809,6 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.bg-opacity-50 {
-  --tw-bg-opacity: 0.5;
-}
-
 .bg-opacity-60 {
   --tw-bg-opacity: 0.6;
 }
@@ -825,24 +821,36 @@ video {
   background-image: url('/src/images/guitar-music-theory.jpeg');
 }
 
+.bg-galaxy-shooter {
+  background-image: url('/src/images/APCS_Final_Map.png');
+}
+
 .bg-\[length\:1000px\] {
   background-size: 1000px;
 }
 
-.bg-contain {
-  background-size: contain;
+.bg-\[length\:450px\] {
+  background-size: 450px;
 }
 
 .bg-\[length\:500px\] {
   background-size: 500px;
 }
 
-.bg-\[length\:400px\] {
-  background-size: 400px;
+.bg-\[length\:600px\] {
+  background-size: 600px;
 }
 
-.bg-\[length\:450px\] {
-  background-size: 450px;
+.bg-\[length\:700px\] {
+  background-size: 700px;
+}
+
+.bg-\[length\:750px\] {
+  background-size: 750px;
+}
+
+.bg-cover {
+  background-size: cover;
 }
 
 .bg-center {
@@ -1029,6 +1037,18 @@ video {
   .max-lg\:m-9 {
     margin: 2.25rem;
   }
+
+  .max-lg\:bg-\[length\:650\] {
+    background-size: 650;
+  }
+
+  .max-lg\:bg-\[length\:650px\DF\] {
+    background-size: 650pxß;
+  }
+
+  .max-lg\:bg-\[length\:650px\] {
+    background-size: 650px;
+  }
 }
 
 @media not all and (min-width: 768px) {
@@ -1036,8 +1056,32 @@ video {
     margin: 1.25rem;
   }
 
+  .max-md\:bg-\[length\:100px\] {
+    background-size: 100px;
+  }
+
+  .max-md\:bg-\[length\:650px\] {
+    background-size: 650px;
+  }
+
+  .max-md\:bg-\[length\:600px\] {
+    background-size: 600px;
+  }
+
   .max-md\:pb-\[120px\] {
     padding-bottom: 120px;
+  }
+
+  .max-md\:\[length\:650px\] {
+    length: 650px;
+  }
+
+  .max-md\:\[length\:600px\] {
+    length: 600px;
+  }
+
+  .max-md\:\[length\:100px\] {
+    length: 100px;
   }
 }
 
@@ -1070,6 +1114,18 @@ video {
     justify-content: center;
   }
 
+  .max-sm\:bg-\[length\:750px\] {
+    background-size: 750px;
+  }
+
+  .max-sm\:bg-\[length\:700px\] {
+    background-size: 700px;
+  }
+
+  .max-sm\:bg-\[length\:600px\] {
+    background-size: 600px;
+  }
+
   .max-sm\:p-6 {
     padding: 1.5rem;
   }
@@ -1094,6 +1150,10 @@ video {
 
   .sm\:flex-row {
     flex-direction: row;
+  }
+
+  .sm\:bg-\[length\:750px\] {
+    background-size: 750px;
   }
 }
 
