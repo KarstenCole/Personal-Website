@@ -658,6 +658,14 @@ video {
   aspect-ratio: 1 / 1;
 }
 
+.aspect-\[20\/30\] {
+  aspect-ratio: 20/30;
+}
+
+.aspect-\[20\/10\] {
+  aspect-ratio: 20/10;
+}
+
 .h-1 {
   height: 0.25rem;
 }
@@ -809,6 +817,11 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
+.bg-blue-300 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(147 197 253 / var(--tw-bg-opacity));
+}
+
 .bg-opacity-60 {
   --tw-bg-opacity: 0.6;
 }
@@ -833,24 +846,12 @@ video {
   background-size: 450px;
 }
 
-.bg-\[length\:500px\] {
-  background-size: 500px;
-}
-
-.bg-\[length\:600px\] {
-  background-size: 600px;
-}
-
-.bg-\[length\:700px\] {
-  background-size: 700px;
-}
-
-.bg-\[length\:750px\] {
-  background-size: 750px;
-}
-
 .bg-cover {
   background-size: cover;
+}
+
+.bg-auto {
+  background-size: auto;
 }
 
 .bg-center {
@@ -1031,6 +1032,10 @@ video {
   .max-xl\:m-24 {
     margin: 6rem;
   }
+
+  .max-xl\:m-10 {
+    margin: 2.5rem;
+  }
 }
 
 @media not all and (min-width: 1024px) {
@@ -1038,12 +1043,12 @@ video {
     margin: 2.25rem;
   }
 
-  .max-lg\:bg-\[length\:650\] {
-    background-size: 650;
+  .max-lg\:m-7 {
+    margin: 1.75rem;
   }
 
-  .max-lg\:bg-\[length\:650px\DF\] {
-    background-size: 650pxß;
+  .max-lg\:m-6 {
+    margin: 1.5rem;
   }
 
   .max-lg\:bg-\[length\:650px\] {
@@ -1056,12 +1061,8 @@ video {
     margin: 1.25rem;
   }
 
-  .max-md\:bg-\[length\:100px\] {
-    background-size: 100px;
-  }
-
-  .max-md\:bg-\[length\:650px\] {
-    background-size: 650px;
+  .max-md\:m-4 {
+    margin: 1rem;
   }
 
   .max-md\:bg-\[length\:600px\] {
@@ -1070,18 +1071,6 @@ video {
 
   .max-md\:pb-\[120px\] {
     padding-bottom: 120px;
-  }
-
-  .max-md\:\[length\:650px\] {
-    length: 650px;
-  }
-
-  .max-md\:\[length\:600px\] {
-    length: 600px;
-  }
-
-  .max-md\:\[length\:100px\] {
-    length: 100px;
   }
 }
 
@@ -1114,14 +1103,6 @@ video {
     justify-content: center;
   }
 
-  .max-sm\:bg-\[length\:750px\] {
-    background-size: 750px;
-  }
-
-  .max-sm\:bg-\[length\:700px\] {
-    background-size: 700px;
-  }
-
   .max-sm\:bg-\[length\:600px\] {
     background-size: 600px;
   }
@@ -1151,10 +1132,6 @@ video {
   .sm\:flex-row {
     flex-direction: row;
   }
-
-  .sm\:bg-\[length\:750px\] {
-    background-size: 750px;
-  }
 }
 
 @media (min-width: 1024px) {
@@ -1162,7 +1139,81 @@ video {
     margin-right: 7rem;
   }
 
+  .lg\:aspect-\[20\/10\] {
+    aspect-ratio: 20/10;
+  }
+
+  .lg\:aspect-\[20\/13\] {
+    aspect-ratio: 20/13;
+  }
+
+  .lg\:aspect-\[40\/25\] {
+    aspect-ratio: 40/25;
+  }
+
+  .lg\:aspect-\[40\/24\] {
+    aspect-ratio: 40/24;
+  }
+
+  .lg\:aspect-\[20\/20\] {
+    aspect-ratio: 20/20;
+  }
+
+  .lg\:aspect-\[20\/26\] {
+    aspect-ratio: 20/26;
+  }
+
+  .lg\:aspect-\[20\/24\] {
+    aspect-ratio: 20/24;
+  }
+
+  .lg\:aspect-\[20\/7\] {
+    aspect-ratio: 20/7;
+  }
+
+  .lg\:aspect-\[20\/9\] {
+    aspect-ratio: 20/9;
+  }
+
+  .lg\:aspect-\[20\/8\] {
+    aspect-ratio: 20/8;
+  }
+
+  .lg\:aspect-\[20\/7\.5\] {
+    aspect-ratio: 20/7.5;
+  }
+
+  .lg\:aspect-\[20\/7\.8\] {
+    aspect-ratio: 20/7.8;
+  }
+
   .lg\:justify-center {
     justify-content: center;
+  }
+}
+
+@media (min-width: 1280px) {
+  .xl\:aspect-\[20\/10\] {
+    aspect-ratio: 20/10;
+  }
+
+  .xl\:aspect-\[20\/20\] {
+    aspect-ratio: 20/20;
+  }
+
+  .xl\:aspect-\[20\/30\] {
+    aspect-ratio: 20/30;
+  }
+
+  .xl\:aspect-\[20\/13\] {
+    aspect-ratio: 20/13;
+  }
+
+  .xl\:aspect-\[20\/8\] {
+    aspect-ratio: 20/8;
+  }
+
+  .xl\:aspect-\[20\/7\] {
+    aspect-ratio: 20/7;
   }
 }
