@@ -10,10 +10,18 @@ html{
 .menu-button.active .menu-line:nth-child(3) {
     transform: rotate(-45deg);
 }
+/* .menu-line{
+    background-color: rgb(229 231 235);
+    background-color: black;
+    mix-blend-mode: difference;
+} */
 #menu.show {
     opacity: .99;
     z-index: 49;
 
+}
+.gray{
+    background-color: rgb(229 231 235);
 }
 body{
     overflow-x: hidden;
