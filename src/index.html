@@ -12,7 +12,7 @@
     <!-- Here is the command to update the dist/output and optimize the website:
          npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch -->
     
-         <!-- Menu Button -->
+    <!-- Menu Button -->
     <div class="fixed top-9 right-7 h-8 w-10 z-50 mix-blend-difference">
         <button id="menuButton" class="menu-button h-full w-10 focus:outline-none mix-blend-difference" onclick="toggleMenu();">
             <div class="menu-line absolute w-full h-1 bg-white mix-blend-difference rounded-full 
@@ -23,7 +23,7 @@
             transition-transform duration-300 translate-y-3.5"></div>
         </button>
     </div>
-        <!-- Menu -->
+    <!-- Menu -->
     <div id="menu" 
     class="fixed h-screen w-screen bg-black -z-50 opacity-0 duration-300 
     text-white flex flex-col justify-center text-center">
@@ -33,7 +33,7 @@
         <a class="w-full text-4xl h-14" onclick="toggleMenu();" href="#Resume/Summary">RESUME</a>
         <a class="w-full text-4xl h-14r" onclick="toggleMenu();" href="#footer">CONTACT ME</a>
     </div>
-        <!-- About me -->
+    <!-- About me -->
     <div id="Intro" class="bg-black text-white min-h-screen sm:h-screen">
         <div class="box-area">
             <div id="about-me z-50" 
@@ -74,9 +74,10 @@
     <!-- Portfolio -->
     <div id="portfolio" class="text-black flex justify-center flex-col gray 
     max-sm:pb-[100px] max-md:pb-[120px] pb-[140px]">
-        <h1 class="large-title m-24">
+        <h1 class="large-title mt-24 mb-4">
             PORTFOLIO
-        </h1> 
+        </h1>
+        <hr class="m-auto w-32 border-b-[3px] border-black"> 
         <div class="text-white grid grid-cols-3 bg-green grid-flow-row m-36 mb-6
         max-xl:m-10 max-lg:m-7 max-md:m-4 max-sm:m-3 max-sm:grid-cols-1">
             <!-- Project1 -->
@@ -147,13 +148,13 @@
 
     </div>
     <!-- Journey -->
-    
     <div id="Jobs/Internships/" class="spacer layer1"></div>
     <div id="Journey">
         <div class="h-10"></div>
-        <h1  class="large-title m-24 text-white mb-40">
+        <h1  class="large-title m-[2rem] text-white mb-4">
             MY JOURNEY
         </h1>
+        <hr class="m-auto w-32 border-b-[3px] border-white mb-28"> 
         <div>
             <!-- STEEL CITY -->
             <div class="flex sm:flex-row flex-col justify-around max-w-[1000px] m-auto mb-40">
@@ -196,7 +197,7 @@
                 </div>
             </div>
             <!-- COMIK INK -->
-            <div class="flex sm:flex-row flex-col justify-around max-w-[1000px] m-auto mb-40">
+            <div class="flex sm:flex-row flex-col justify-around max-w-[1000px] m-auto mb-10">
                 <div class="flex justify-center">
                     <a href="https://comikink.com/" target="_blank">
                         <img src="images/ComikInk-transparent.png" alt="" class="object-contain
@@ -217,6 +218,7 @@
             </div>
         </div>
     </div>
+    <div class="spacer flipped layer1"></div>
     
 </body>
 </html>

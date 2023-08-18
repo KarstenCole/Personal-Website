@@ -197,7 +197,9 @@ body::-webkit-scrollbar{
     background-position: bottom center;
     background-size: cover;
 }
-
+.flipped {
+    transform: scaleY(-1) scaleX(-1);
+}
 .layer1{
     background-image: url('./images/layered-waves-haikei.svg');
 }

@@ -602,6 +602,26 @@ video {
   margin: auto;
 }
 
+.m-20 {
+  margin: 5rem;
+}
+
+.m-1 {
+  margin: 0.25rem;
+}
+
+.m-\[100px\] {
+  margin: 100px;
+}
+
+.m-\[1rem\] {
+  margin: 1rem;
+}
+
+.m-\[2rem\] {
+  margin: 2rem;
+}
+
 .mb-1 {
   margin-bottom: 0.25rem;
 }
@@ -640,6 +660,18 @@ video {
 
 .mt-6 {
   margin-top: 1.5rem;
+}
+
+.mb-36 {
+  margin-bottom: 9rem;
+}
+
+.mb-28 {
+  margin-bottom: 7rem;
+}
+
+.mb-10 {
+  margin-bottom: 2.5rem;
 }
 
 .flex {
@@ -684,38 +716,6 @@ video {
 
 .h-screen {
   height: 100vh;
-}
-
-.h-20 {
-  height: 5rem;
-}
-
-.h-2 {
-  height: 0.5rem;
-}
-
-.h-7 {
-  height: 1.75rem;
-}
-
-.h-\[32px\] {
-  height: 32px;
-}
-
-.h-\[31px\] {
-  height: 31px;
-}
-
-.h-\[30px\] {
-  height: 30px;
-}
-
-.h-\[29px\] {
-  height: 29px;
-}
-
-.max-h-full {
-  max-height: 100%;
 }
 
 .min-h-screen {
@@ -822,29 +822,24 @@ video {
   border-bottom-width: 3px;
 }
 
+.border-black {
+  --tw-border-opacity: 1;
+  border-color: rgb(0 0 0 / var(--tw-border-opacity));
+}
+
+.border-white {
+  --tw-border-opacity: 1;
+  border-color: rgb(255 255 255 / var(--tw-border-opacity));
+}
+
 .bg-black {
   --tw-bg-opacity: 1;
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
 }
 
-.bg-gray-200 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(229 231 235 / var(--tw-bg-opacity));
-}
-
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-
-.bg-red-700 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(185 28 28 / var(--tw-bg-opacity));
-}
-
-.bg-red-800 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(153 27 27 / var(--tw-bg-opacity));
 }
 
 .bg-opacity-60 {
@@ -968,32 +963,8 @@ video {
   opacity: 0.6;
 }
 
-.mix-blend-normal {
-  mix-blend-mode: normal;
-}
-
-.mix-blend-multiply {
-  mix-blend-mode: multiply;
-}
-
-.mix-blend-screen {
-  mix-blend-mode: screen;
-}
-
-.mix-blend-overlay {
-  mix-blend-mode: overlay;
-}
-
-.mix-blend-lighten {
-  mix-blend-mode: lighten;
-}
-
 .mix-blend-difference {
   mix-blend-mode: difference;
-}
-
-.mix-blend-exclusion {
-  mix-blend-mode: exclusion;
 }
 
 .transition-all {
@@ -1058,14 +1029,6 @@ video {
 
 .hover\:opacity-80:hover {
   opacity: 0.8;
-}
-
-.hover\:mix-blend-overlay:hover {
-  mix-blend-mode: overlay;
-}
-
-.hover\:mix-blend-difference:hover {
-  mix-blend-mode: difference;
 }
 
 .focus\:outline-none:focus {
